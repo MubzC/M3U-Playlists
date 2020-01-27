@@ -50,6 +50,9 @@ http://live.fadev.club/live/CNN/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/CNN-International-Logo.svg/200px-CNN-International-Logo.svg.png" group-title="News",CNN International
 http://ott.artmott.com/CNN/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/de/DeutscheWelleEn.de.png" group-title="News",Deutsche Welle (English)
+https://dwstream1-lh.akamaihd.net/i/dwstream1_live@120422/index_1_av-p.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.iptv-epg.com/ru/Euronews.ru.png" group-title="News",Euronews
 https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/EuroNews.m3u8
 
@@ -200,9 +203,6 @@ https://cstream5.com/hls/btsport2.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="Sports",CCTV-5 体育频道
 http://111.40.205.87/PLTV/88888888/224/3221225711/index.m3u8
 
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="Sports",CCTV-5+ 体育赛事
-http://111.40.205.87/PLTV/88888888/224/3221225689/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://tv.foxsportsasia.com/logos/logo_foxsports.png" group-title="Sports",Fox Sports 1 Asia
 https://livedoomovie.com/02_foxsport_720p/chunklist.m3u8
 
@@ -257,8 +257,8 @@ https://globolive.akamaized.net/d/c/x2800/s/hls-spo224ha/hls-spo224ha_2764/playl
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/SporTV_3_logo_2016.png" group-title="Sports",SporTV 3
 https://globolive.akamaized.net:443/d/c/x2800/s/hls-spo324ha/hls-spo324ha_2764/playlist.m3u8?hdnts=st=1568899416~exp=1668899406~acl=/*~id=0sp9c8skcs800h3cml37evdj43~hmac=5f4bbd91aec7a1fc20617169c106b8d5e0c86bfb4cec5788668b40cc8f9bf80e
 
-#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/SkySportsAction.uk.png" group-title="Sports",Sky Sports Action
-https://cstream5.com/hls/skysportsaction.m3u8
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/SkySportsArena.uk.png" group-title="Sports",Sky Sports Arena
+https://cstream5.com/hls/skysportsarena.m3u8
 
 #EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-9nZek_Xczn4/VtYapdfBcKI/AAAAAAAADl0/7TA-J7fgQu0/s320/supersport_3_africa.png" group-title="Sports",Super Sport 3
 http://sg.ocache.xyz/sports/supersp3.m3u8
@@ -274,9 +274,6 @@ https://streaming.sniffercat.com/scheduler/scheduleMaster/2/variant/4.m3u8
 
 #EXTINF:-1 tvg-logo="https://snagfilms-a.akamaihd.net/cf9c3bbc-917a-4447-90ab-55bf78b01f49/images/83/36/d90134124307b18e251dce2033ad/1566507637959_laximages-tab.png" group-title="American Sports",Lax Sports Network
 https://snagfilms-lh.akamaihd.net/i/Laxsportsnetwork_1@322790/index_2800_av-b.m3u8
-
-#EXTINF:-1 tvg-logo="https://dstroscal1.s.llnwi.net/public/hls/22705/horizon-sports/logo_20191213_000421.png" group-title="American Sports",Horizon Sports
-https://a.jsrdn.com/broadcast/22705/+0000/c.m3u8
 
 #EXTINF:-1 tvg-logo="http://outsidetvcdn.outsidetv.com/img/theme/header_logo_v2.png" group-title="American Sports",Outside TV
 https://a.jsrdn.com/broadcast/3gT64sH/c.m3u8
@@ -295,9 +292,6 @@ http://live.fadev.club/live/MSG/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/SECNetwork.us.png" group-title="American Sports",SEC Network
 https://gma2.blab.email/sec.m3u8
-
-#EXTINF:-1 tvg-logo="https://dstroscal1.s.llnwi.net/public/hls/22697/sportskool-tv/logo_20191213_002949.png" group-title="American Sports",Sportskool TV
-https://a.jsrdn.com/broadcast/22697/+0000/c.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/Stadium.us.png" group-title="American Sports",Stadium
 https://stadiumlivein-i.akamaihd.net/hls/live/522512/mux_4/master.m3u8
@@ -789,7 +783,475 @@ http://111.40.205.76/PLTV/88888888/224/3221225672/index.m3u8
 http://111.40.205.87/PLTV/88888888/224/3221225655/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d5/Smithsonian_Channel.png" group-title="Learning",Smithsonian Channel
-http://live.fadev.club/live/Smithsonian/playlist.m3u8
+http://live.fadev.club/live/Smithsonian/playlist.m3u8#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/au/Action.au.png" group-title="Australia/New Zealand",Australia Channel
+https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master1280x720.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.acc.tv/wp-content/uploads/2016/06/acctv-logo-web.png" group-title="Australia/New Zealand",ACC TV
+http://hls-live-media.cdn01.net/default/stream_14949_1.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.abc.net.au/tv/epg/images/channels/ABC1_60x53.png" group-title="Australia/New Zealand",ABC
+https://i.mjh.nz/au/Brisbane/tv.101002410241.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.abc.net.au/tv/epg/images/channels/ABC2_76x37.png" group-title="Australia/New Zealand",ABC Comedy
+https://i.mjh.nz/au/Brisbane/tv.abc2.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.abc.net.au/cm/rimage/11416782-1x1-large.png" group-title="Australia/New Zealand",ABC ME
+https://i.mjh.nz/au/Brisbane/tv.101002210224.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/au/ABCNews24.au.png" group-title="Australia/New Zealand",ABC News
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.abc.net.au/cm/rimage/11251996-1x1-large.png" group-title="Australia/New Zealand",ABC Kids
+https://i.mjh.nz/au/Brisbane/tv.101002210222.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ABC_Australia_logo.svg/1200px-ABC_Australia_logo.svg.png" group-title="Australia/New Zealand",ABC Australia
+https://anevia115.mncnow.id/live/eds/AustraliaPlus/sa_hls/AustraliaPlus.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/BloombergTV.us.png" group-title="Australia/New Zealand",Bloomberg Australia
+https://liveprodapnortheast.global.ssl.fastly.net/oz1/Channel-OZTVqvs-AWS-tokyo-1/Source-OZTVqvs-1000-1_live.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.mediaweek.com.au/wp-content/uploads/2017/01/fox-sports-news-logo.jpg" group-title="Australia/New Zealand",Fox Sports News
+https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master1280x720.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.freeviewnz.tv/nonumbracoimages/ChannelsOpg/Web_THREE_1280x1280.png" group-title="Australia/New Zealand",Three 
+http://mediaworks-i.akamaihd.net/hls/live/220435/3812193411001/3news_live/master_1500.m3u8
+
+#EXTINF:-1 tvg-logo="https://c31.org.au/wp-content/uploads/2019/06/C31-Logo-White-New.png" group-title="Australia/New Zealand",C31
+https://dcunilive47-lh.akamaihd.net/i/dclive_1@739220/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.ourguide.com.au/images/station_images/44.png" group-title="Australia/New Zealand",C44
+https://bdz47wk-lh.akamaihd.net/i/bdz47wkxwmnlsh_1@54040/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.mjh.nz/au/images/tv.snowy-mountains.png" group-title="Australia/New Zealand",Snowy Mountains TV
+http://c.mjh.nz/snowy-mountains/
+
+#EXTINF:-1 tvg-logo="https://www.foxtel.com.au/content/dam/foxtel/watch/news/sky-news-extra-colour.PNG" group-title="Australia/New Zealand",Sky News Extra 1
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.foxtel.com.au/content/dam/foxtel/watch/news/sky-news-extra-colour.PNG" group-title="Australia/New Zealand",Sky News Extra 2
+https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.foxtel.com.au/content/dam/foxtel/watch/news/sky-news-extra-colour.PNG" group-title="Australia/New Zealand",Sky News Extra 3
+https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.freeviewnz.tv/nonumbracoimages/ChannelsOpg/parlament-tv.png" group-title="Australia/New Zealand",Parliament TV
+http://streaming.kordia.net.nz/out/u/ptv_houseaudio.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.freeviewnz.tv/nonumbracoimages/ChannelsOpg/freeview-channel-logos-38.png" group-title="Australia/New Zealand",Maori TV
+https://bcsecurelivehls-i.akamaihd.net//hls/live/720612/1614493167001_1/master_iPad1080p.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.freeviewnz.tv/nonumbracoimages/ChannelsOpg/te-reo.png" group-title="Australia/New Zealand",Te Reo
+https://bcsecurelivehls-i.akamaihd.net//hls/live/720613/1614493167001_2/master_iPad1080p.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/4Music.uk.png" group-title="UK",4Music
+http://csm-e.tm.yospace.com/csm/extlive/boxplus01,4music-desktop.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/4music/
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/BloombergTV.us.png" group-title="UK",Bloomberg UK
+https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/uk/BBC1.uk.png" group-title="UK",BBC 1
+https://bozztv.com/36bay2/gin/giniko_bbcone_1000kb_36bay2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/uk/BBC2.uk.png" group-title="UK",BBC 2
+https://bozztv.com/36bay2/gin/giniko_bbctwo_1000kb_36bay2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.mediaparents.co.uk/images/avatars/modified_3bfa565acbf292e4eec2e8dd12f7fd3a.png" group-title="UK",British Muslim TV
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/british_muslim_tv/hls1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/BoxHits.uk.png" group-title="UK",Box Hits
+http://csm-e.tm.yospace.com/csm/extlive/boxplus01,boxhits-desktop.m3u8?yo.up=http%3a%2f%2fboxtv-origin-elb.cds1.yospace.com%2fuploads%2fboxhits%2f
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/BoxUpfront.uk.png" group-title="UK",Box Upfront
+http://csm-e.tm.yospace.com/csm/extlive/boxplus01,boxupfront-desktop.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/boxupfront/
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/CreateCraft.uk.png" group-title="UK,Create & Craft
+https://live-craftuk.simplestreamcdn.com/craftuk/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/Challenge.uk.png" group-title="UK",Challenge
+https://streamingserver001.viewtvgroup.com/kapanglivetv-uksat-challenge/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/CBSReality.uk.png" group-title="UK",CBS Reality
+http://84.22.33.254/unicast.cbsreality/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/Dave.uk.png" group-title="UK",Dave
+https://streamingserver001.viewtvgroup.com/kapanglivetv-uksat-dave/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.gemporia.com/images/og/fb.jpg" group-title="UK",Gemporia
+https://57d4d8b1e4f4f.streamlock.net/abrgemporia/smil:livestream.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/ITV1.uk.png" group-title="UK",ITV
+http://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master_Main1800.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/IdealWorld.uk.png" group-title="UK",Ideal World
+http://live-isd.simplestreamcdn.com/idealworld/3/prog_index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/QVC.uk.png" group-title="UK",QVC
+https://d1txbbj1u9asam.cloudfront.net/live/qvcuk_main_clean/bitrate1.isml/3/prog_index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/KissTV.uk.png" group-title="UK",Kiss
+http://csm-e.tm.yospace.com/csm/extlive/boxplus01,kiss-inapp.m3u8?yo.up=http%3a%2f%2fboxtv-origin-elb.cds1.yospace.com%2fuploads%2fkiss%2f
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/Kerrang.uk.png" group-title="UK",Kerrang
+http://csm-e.tm.yospace.com/csm/extlive/boxplus01,kerrang-desktop.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/kerrang/
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/Magic.uk.png" group-title="UK",Magic
+http://csm-e.tm.yospace.com/csm/extlive/boxplus01,magic-desktop.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/magic/
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/Official_Houses_of_the_Oireachtas_Logo.jpg" group-title="UK",Oireachtas
+https://d1h8rkqumz239n.cloudfront.net/oireachtas/ngrp:oireachtas.stream_all/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://2ztp623067el53wfyaf7sj1d-wpengine.netdna-ssl.com/onlymotors/wp-content/uploads/sites/19/2017/08/onlymotorsLOGO2.png" group-title="UK",Only Motor
+https://streamingserver002.viewtvgroup.com/kapanglivetv-playout-onlymotors/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/PickTV.uk.png" group-title="UK",Pick
+https://streamingserver001.viewtvgroup.com/kapanglivetv-uksat-pick/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/ie/RTENewsNow.ie.png" group-title="UK",RTE News Now
+https://live.rte.ie/live/a/channel3/news.isml/news.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/ie/TG4.ie.png" group-title="UK",TG4
+http://csm-e.cds1.yospace.com/csm/live/74246610.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/ru/RTUK.ru.png" group-title="UK",RT UK
+http://rt-uk.secure.footprint.net:80/1106_2500Kb.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/TheBox.uk.png" group-title="UK",The Box
+http://csm-e.tm.yospace.com/csm/extlive/boxplus01,thebox-desktop.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/thebox/
+
+#EXTINF:-1 tvg-logo="http://www.247retro.com/images/sidebar_logo_gradient.jpg" group-title="USA/Canada",24-7 Retro TV
+http://247retrotv.com:1935/live/smil:247retro.smil/chunklist_w1193920237_b1928000_sleng.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.miptv.ws/A&E_HD.png" group-title="USA/Canada",A&E
+http://live.fadev.club/live/AE/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://blive.imgix.net/web/generic/mee.logo-golden-trans.png" group-title="USA/Canada",AKC TV 
+https://video.blivenyc.com/broadcast/prod/2061/22/file-3192k.m3u8
+
+#EXTINF:-1 tvg-logo="http://amgtv.tv/wp-content/uploads/2019/11/new_amgtv_top2.png" group-title="USA/Canada",AMGTV
+https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.americanhorrors.com/wp-content/uploads/2017/04/logo.png" group-title="USA/Canada",American Horrors
+http://170.178.189.66:1935/live/Stream1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/AmericanHeroesChannel.us.png" group-title="USA/Canada",American Hero Channel
+http://live.fadev.club/live/AHC/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/BBCAmerica.us.png" group-title="USA/Canada",BBC America
+http://live.fadev.club/live/BBCAmerica/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/Bravo.us.png" group-title="USA/Canada",Bravo
+http://live.fadev.club/live/Bravo/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/BuzzrTV.us.png" group-title="USA/Canada",Buzzr
+https://buzzr.global.ssl.fastly.net/out/u/buzzr_hls_4.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.cbn.com/giving/general/7Ci/newcbnnews/images/cbnnews-logo-blue.png" group-title="USA/Canada",CBN News
+http://bcliveuniv-lh.akamaihd.net/i/news_1@194050/index_900_av-p.m3u8
+
+#EXTINF:-1 tvg-logo="https://mediaweb.kirotv.com/photo/2018/09/24/kiro7_header_logo_152x60_13118164_ver1.0.png" group-title="USA/Canada",CBS 7 Seattle (KIRO)
+http://svc-lvanvato-cxtv-kiro.cmgvideo.com:80/kiro/1864k/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/WHIO-TV_Logo.png/285px-WHIO-TV_Logo.png" group-title="USA/Canada",CBS 7 Ohio (WHIO)
+http://svc-lvanvato-cxtv-whio.cmgvideo.com:80/whio/2596k/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2018/06/3_losangeles_cbs2_kcal9.png?w=320" group-title="USA/Canada",CBS 9 Los Angeles (KCAL)
+https://dai.google.com/linear/hls/event/TxSbNMu4R5anKrjV02VOBg/master.m3u8?iu=/4128/CBS.LA.OTT
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/WJAX-TV_logo.png/1920px-WJAX-TV_logo.png" group-title="USA/Canada",CBS 47 Jacksonville (WJAX)
+http://svc-lvanvato-cxtv-wjax.cmgvideo.com/wjax/2564k/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.contv.com/static/media/ConTV-Logo.a1d15e62.png" group-title="USA/Canada",CONtv
+https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo123-contv/CDN/1920x1080_4528000/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/CW.us.png" group-title="USA/Canada",The CW
+http://live.fadev.club/live/CW/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b5/WHDH_7_logo.png" group-title="USA/Canada",CW Boston (WHDH)
+https://bcsecurelivehls-i.akamaihd.net/hls/live/598046/4744899807001_1/livestream/master_540-57.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/WKMGDT2.us.png" group-title="USA/Canada",DABL
+https://cbsta49f-dabl68fc.global.ssl.fastly.net/out/v1/dfecb53fbf434b6bbbfd91d8a2549381/manifest_24.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PH1Gg4p.png" group-title="USA/Canada",Free Speech TV
+https://edge.free-speech-tv-live.top.comcast.net/out/u/fstv.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/ru/RTUS.ru.png" group-title="USA/Canada",RT USA
+http://rt-usa.secure.footprint.net:80/1105_2500Kb.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/ca/CityTVSaskatchewan.ca.png" group-title="USA/Canada",CTV
+http://live.fadev.club/live/YES/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/CTV_Sci-Fi_Channel_2019.svg/300px-CTV_Sci-Fi_Channel_2019.svg.png" group-title="USA/Canada",CTV Sci-Fi Channel
+http://live.fadev.club/live/Space/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/WNYW5.png group-title="USA/Canada",Fox 5 New York (WNYW)
+http://live.fadev.club/live/FOX/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.fox23.com/pb/resources/images/cmg_icons/koki-logo.png" group-title="USA/Canada",FOX 23 Tulsa (KOKI)
+http://svc-lvanvato-cxtv-koki.cmgvideo.com/koki/2564k/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.myfoxbostoncom.cmgdigital.com/photo/2018/07/19/logo-main-wfxt_1532037842427_12380292_ver1.0.png" group-title="USA/Canada",FOX 25 Boston (WFXT)
+http://svc-lvanvato-cxtv-wfxt.cmgvideo.com:80/wfxt/2564k/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/ca/ICITelevisionMontreal.ca.png" group-title="USA/Canada",ICI Tele
+https://ici-i.akamaihd.net/hls/live/873426/ICI-Live-Stream/6d56dcba66d14b58451695b0871f9ac8/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/88/ICI_RDI_2016.png" group-title="USA/Canada",ICI RDI
+https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master_2500.m3u8
+
+#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/51KxCs%2BTT8L._SY355_.png" group-title="USA/Canada",Law & Crime Trial
+https://live-lawandcrime.simplestreamcdn.com/lawcrimehls/6/prog_index.m3u8
+
+#EXTINF:-1 tvg-logo="https://pmcvariety.files.wordpress.com/2016/10/mobcrush.jpg" group-title="USA/Canada",Mobcrush
+https://ott.mobcrush.com/hls/0/ott.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_of_WRC-TV.png" group-title="USA/Canada",NBC 4 DC (WRCB)
+https://wrclive-f.akamaihd.net/i/wrcb1_1@46880/index_1286_av-b.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.nbcchicago.com/2019/09/Chicago_On_Dark@3x-1.png" group-title="USA/Canada",NBC 5 Chicago (WMAQ-TV)
+http://live.fadev.club/live/NBC/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://mediaweb.wpxi.com/theme/images/logo-main-wpxi.png" group-title="USA/Canada",NBC 11 Pittsburgh (WPXI)
+http://svc-lvanvato-cxtv-wpxi.cmgvideo.com/wpxi/2564k/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WHO-TV_logo.png/225px-WHO-TV_logo.png" group-title="USA/Canada",NBC 13 Des Moines (WHO-DT)
+http://whotribune-lh.akamaihd.net/i/WHOTribune_1@198423/index_1900_av-b.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/WVIT_Logo.png/330px-WVIT_Logo.png" group-title="USA/Canada",NBC 30 Connecticut (WVIT) 
+http://wvitlive-f.akamaihd.net/i/wvitb2_1@71164/index_1286_av-b.m3u8
+
+#EXTINF:-1 tvg-logo="https://ftpcontent.worldnow.com/professionalservices/clients/news12/news12bx/images/news12bx-logo.png" group-title="USA/Canada",News 12 Bronx
+http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12BX
+
+#EXTINF:-1 tvg-logo="https://ftpcontent.worldnow.com/professionalservices/clients/news12/news12bk/images/news12bk-logo.png" group-title="USA/Canada",News 12 Brooklyn
+http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12KN
+
+#EXTINF:-1 tvg-logo="https://ftpcontent.worldnow.com/professionalservices/clients/news12/news12li/images/news12li-logo.png" group-title="USA/Canada",News 12 Long Island
+http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12LI_WEST
+
+#EXTINF:-1 tvg-logo="http://yournewsnet.com/wp-content/uploads/2018/03/NNLogo.jpg" group-title="USA/Canada",Newsnet
+http://broadcastny.yournewsnet.com:8081/master/newsnetweb/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://resources.ntv.ca/wp-content/uploads/2019/11/01095849/NTV_newWS.png" group-title="USA/Canada",NTV Newfoundland
+https://2-fss-2.streamhoster.com/pl_138/201748-1282640-1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://nstv.org/wp-content/uploads/2019/09/cropped-NSTV_logo_OL_2C_RGB.png" group-title="USA/Canada",North Shore TV
+http://47.23.7.30:8080/live/WIFI-1096k-360p/WIFI-1096k-360p.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/OWN_2011_logo.svg/1200px-OWN_2011_logo.svg.png" group-title="USA/Canada",OWN
+http://live.fadev.club/live/OWN/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/Oxygen.us.png" group-title="USA/Canada",Oxygen
+http://live.fadev.club/live/oxygen/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://le1.cdn01.net/channels/0000010/0010250/thumb/0010250xl.jpg" group-title="USA/Canada",SafeTV4U2
+http://18.191.91.130:1935/live/safetv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/Showtime.us.png" group-title="USA/Canada",Showtime
+http://live.fadev.club/live/SHOWTIME/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://vhx.imgix.net/tastemade/assets/1067fc2b-f559-4d74-8d5e-1e4665dcd686.png" group-title="USA/Canada",Tastemade
+https://tastemadessai.akamaized.net/amagi_hls_data_tastemade-tastemade/CDN/718x404_2002829/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/TBS.us.png" group-title="USA/Canada",TBS
+http://live.fadev.club/live/TBS/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/ca/TeleQuebec.ca.png" group-title="USA/Canada",Tele-Quebec
+https://teleqmmd.mmdlive.lldns.net/teleqmmd/f386e3b206814e1f8c8c1c71c0f8e748/chunklist_b2592000.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Vtele.svg/800px-Vtele.svg.png" group-title="USA/Canada",Tele-V
+https://bcsecurelivehls-i.akamaihd.net/hls/live/551061/618566855001/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/1200px-TruTV_2014.svg.png" group-title="USA/Canada",Tru TV
+http://live.fadev.club/live/TruTV/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/TNT.us.png" group-title="USA/Canada",TNT
+http://live.fadev.club/live/TNT/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6b/WSVI_Logo.png" group-title="USA/Canada",WSVI-TV (Virgin Islands)
+http://dcunilive30-lh.akamaihd.net/i/dclive_1@534251/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/USANetwork.us.png" group-title="USA/Canada",USA Network
+http://live.fadev.club/live/USANETWORK/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.zliving.com/wp-content/uploads/2018/03/Retina.png" group-title="USA/Canada",Z Living
+https://y5w8j4a9.ssl.hwcdn.net/zlivingusa_r_prod/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/cz/AnimalPlanet.cz.png" group-title="मनोरंजन",Animal Planet हिन्दी
+https://streamidvo.multitvsolution.in//live//APHDHindi-a//p4.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/gb/DiscoveryChannel.uk.png"group-title="मनोरंजन",Discovery हिन्दी
+https://streamidvo.multitvsolution.in/live/DiscoveryHindi-a/p4.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/si/DiscoveryScience.si.png" group-title="मनोरंजन",Discovery Science हिन्दी
+https://streamidvo.multitvsolution.in/live/DiscoverScienceHindi-a/p4.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/br/DiscoveryKids.br.png" group-title="मनोरंजन",Discovery Kids
+http://streamidvo.multitvsolution.in/live/DiscoveryKidsHindi-a/p4.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/us/InvestigationDiscovery.us.png" group-title="मनोरंजन",Investigation Discovery मनोरंजन
+http://streamidvo.multitvsolution.in/Investigation_Discovery-a/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.colorstv.com/wp-content/themes/colorstv/assets/images/logo.png" group-title="मनोरंजन",Colors
+http://ms-azure-video.gslb.startimestv.com/live/COLORS_1072_500_480x360_424212/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://d3fxehhzqt25no.cloudfront.net/images/logo-animated-new.gif" group-title="मनोरंजन",Sony ETV
+https://streamer-1.toffeelive.com/live/sony_entertainment_720/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/SonyMax.in.png" group-title="मनोरंजन",Sony Max
+https://streamer-1.toffeelive.com/live/sony_max_720/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/SonyMax2.in.png" group-title="मनोरंजन",Sony Max 2
+http://216.144.250.174/Sony_MaX_HD_02/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/de/TLC.de.png" group-title="मनोरंजन",TLC मनोरंजन
+http://streamidvo.multitvsolution.in/TLCHDHindi-a/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://d36mpatsggudpt.cloudfront.net/images/logo-new.png" group-title="मनोरंजन",Sony SAB
+https://streamer-1.toffeelive.com/live/sony_sab_720/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/SonyYAY.in.png" group-title="मनोरंजन",Sony YAY
+https://streamer-1.toffeelive.com/live/sony_yay_720/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/StarGold.in.png" group-title="मनोरंजन",Star Gold
+http://fr-c.movply.stream/hls/Star_Gold.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/StarPlus.in.png" group-title="मनोरंजन",Star Plus
+http://fr-c.movply.stream/hls/Star_Plus.m3u8
+
+#EXTINF:-1 tvg-logo="https://753619.smushcdn.com/1323606/wp-content/uploads/2019/04/logo_site-768x345.png?lossy=1&strip=1&webp=1" group-title="मनोरंजन",The Q
+https://amg1-i.akamaihd.net/hls/live/784034/QYou.stream_720pl/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Zee_TV-2018.png" group-title="मनोरंजन",Zee TV
+https://streamer-1.toffeelive.com/live/zee_tv_hd_720/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://firstindianews.com/images/logo.png" group-title="न्यूज़",1st इंडिया
+https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://smedia2.intoday.in/aajtak/at_2.09032019/resources/theme_v2/common/images/homeLogo.png" group-title="न्यूज़",आज तक
+https://vidcdn.vidgyor.com/at-origin/liveabr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://smedia2.intoday.in/aajtak/at_2.09032019/resources/theme_v2/common/images/tezlogo.png" group-title="न्यूज़",तेज
+https://vidcdn.vidgyor.com/tez-origin/liveabr/tez-origin/live1/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://livetvmania.net/wp-content/uploads/2018/04/dilli-aajtak.png"group-title="न्यूज़",ABP न्यूज़
+https://sonyent.pc.cdn.bitgravity.com/sonyent/live/delhiaajtak.smil/chunklist_b900000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ddnews.gov.in/sites/all/themes/cmf/logo.png" group-title="न्यूज़",DD News
+http://nicls1-lh.akamaihd.net/i/ddnews_1@409133/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.indiatvnews.com/ins-web/images/sitelogo.png" group-title="न्यूज़",इंडिया टीवी
+https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/indiatv-origin/ITV_1_3@199237/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.khabrainabhitak.org/wp-content/uploads/2018/04/logo-website.jpg" group-title="न्यूज़",Khabrain Abhi Tak
+https://vidcdn.vidgyor.com/kat-origin/liveabr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/News24_Logo.jpg/150px-News24_Logo.jpg" group-title="न्यूज़",News 24
+https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live1/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.newsnation.in/images/newsnation-logo.png" group-title="न्यूज़",News Nation
+https://hls.newsnation.in/NN_HTTP_LIVE/ngrp:mystream_all/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.newsstate.com/static/images/logo.jpg" group-title="न्यूज़",News State
+https://hls2.newsstate.com/NS1_HTTP_LIVE/ngrp:myStream_all/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.newsstate.com/static/images/logo.jpg" group-title="न्यूज़",News State Madhya Pradesh
+https://hls3.newsnation.in/NS2_HTTP_LIVE/ngrp:mystream3_all/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://js.newsx.com/wp-content/themes/newsxlite/images/india-news-logo.png" group-title="न्यूज़",India News
+https://streamidvo.multitvsolution.in/IndiaNews-e/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://js.newsx.com/wp-content/themes/newsxlite/images/india-news-logo.png" group-title="न्यूज़",India News MPC
+https://streamidvo.multitvsolution.in/IndiaNewsMP-a/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.newsx.com/wp-content/uploads/2019/09/rajasthan-5-971543-Ci2gotlM.png" group-title="न्यूज़",India News Rajasthan
+https://streamidvo.multitvsolution.in/IndiaNewsRajasthan-a/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.newsx.com/wp-content/uploads/2019/09/up-uk-6-104289-RhlOsVLc.png" group-title="न्यूज़",India News UP
+https://streamidvo.multitvsolution.in/IndiaNewsUP-g/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.newsx.com/wp-content/uploads/2019/09/up-uk-6-104289-RhlOsVLc.png" group-title="न्यूज़",Surya Samachar
+http://barcosys.livebox.co.in/suryasamacharhls/suryasamachar.m3u8
+
+#EXTINF:-1 tvg-logo="https://dstroscal1.s.llnwi.net/public/hls/22770/bollywood-hd/logo_20191213_005000.png" group-title="फ़िल्म",Bollywood HD
+https://a.jsrdn.com/broadcast/j4jhsgg89/c.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/B4UMovies.in.png" group-title="फ़िल्म",B4U Movies
+http://103.199.161.254/Content/b4umovies/Live/Channel(B4UMovies)/Stream(01)/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://businessfortnight.com/wp-content/uploads/2019/08/B4U_Kadak.jpg" group-title="फ़िल्म",B4U Kadak
+http://103.68.116.50/live/feed1013/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fe/Logo_of_cinematv.png" group-title="फ़िल्म",Cinema TV
+https://acv.asianetmobiletvplus.com/channels/cinematv_ptiwautekttzxckrgphaarueatccfiaz/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.asianetmobiletv.com/channels/ccc.png" group-title="फ़िल्म",Hathway CCC Cine Channel
+https://acv.asianetmobiletvplus.com/channels/hathwayccc_mxqlfydxrrnvteglmkeacyuuhyfjrqec/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c1/HousefullMoviesLogo.jpg" group-title="फ़िल्म",House Full Movies
+https://streamidvo.multitvsolution.in/live/Housefullmovies-f/p4.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/ManoranjanMovies.in.png" group-title="फ़िल्म",Manoranjan
+https://streamidvo.multitvsolution.in/live/ManoranjanTV-b/p4.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a2/MahaMovie.png group-title="फ़िल्म",Maha Movie
+http://streamidvo.multitvsolution.in/MahaMovie-e/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/Multiplex.in.png" group-title="फ़िल्म",Multiplex Cienma
+https://streamidvo.multitvsolution.in/MultiplexCinema-e/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://shopping.shemaroo.com/India/images/logo.png" group-title="फ़िल्म",Shemaroo Hindi
+https://livechannel.shemaroome.com/linearplayout/02-bollywood-classic/chunklist_1920x1080_cf.m3u8
+
+#EXTINF:-1 tvg-logo="https://shopping.shemaroo.com/India/images/logo.png" group-title="फ़िल्म",Shemaroo Bollywood Premier
+https://livechannel.shemaroome.com/linearplayout/bollywood-premier-channel/chunklist_1920x1080_cf.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/WOWCinema.in.png" group-title="फ़िल्म",Wow Cinema
+https://streamidvo.multitvsolution.in//live/WowCinema-d/p4.m3u8
+
+#EXTINF:-1 tvg-logo="https://akamaividz2.zee5.com/image/upload/v1562767001/resources/0-9-zeeclassic/channel_square/zeebollywood386_1261156083.png" group-title="फ़िल्म",Zee Bollywood
+http://216.144.250.174/Zee_ClassIc_HD/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/74/B4U_Music_logo.png" group-title="संगीत",B4U Music
+http://103.199.161.254/Content/B4Umusic/Live/Channel(B4Umusic)/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.vod-logo.net/photos/ced60aa5db0a1c93f771b3d5bdea10d6.jpg" group-title="संगीत",Dil Se
+http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/index_2128_av-p.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.dhamaal.tv/images/logo.png" group-title="संगीत",धमाल
+http://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/index_2128_av-p.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/Mastiii.in.png" group-title="संगीत",Mastiii
+https://streamidvo.multitvsolution.in/live/Mastiii-f/p4.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.hungama.com/assets/images/logo.png" group-title="संगीत",Pop Pataka
+https://linear04hun-lh.akamaihd.net/i/poppataka_1@665241/index_2128_av-p.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/SonyMIX.in.png" group-title="मनोरंजन",Sony Mix
+https://streamer-1.toffeelive.com/live/sony_mix_720/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/WowMusic.in.png" group-title="संगीत",Wow Music
+http://103.199.161.254/Content/wowmusic/Live/Channel(WowMusic)/Stream(02)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.iptv-epg.com/in/Zoom.in.png" group-title="संगीत",Zoom
+http://livecdnh1.tvanywhere.ae/hls/zoom/04.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.bhaktisagartv.com/images/HD-Logo.png" group-title="धर्म",Bhakti Sagar E24
+http://linear02hun-lh.akamaihd.net/i/bhaktisagar_1@665239/index_2128_av-p.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.swamiji.tv/images/logo.png" group-title="धर्म",Swamiji TV
+http://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://webcast.gov.in/images/kisan.jpg" group-title="सीखना",DD Kisan
+https://playhls.media.nic.in/live/ddkisan-360p/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://webcast.gov.in/images/channel_three.png" group-title="सीखना",Lok Sabha
+https://nicls1-lh.akamaihd.net/i/lst_1@26969/master.m3u8
+
+#EXTINF:-1 tvg-logo="http://webcast.gov.in/images/rajyasabhatv.png" group-title="सीखना",Rajya Sabha
+https://nicls2-lh.akamaihd.net/i/rstv_1@26970/master.m3u8
 
 #EXTM3U
 #EXTINF:-1,UK:TLC
@@ -810,32 +1272,23 @@ http://iptv.iptivihd.com:8000/cemal/sakarya54/1498
 #EXTINF:-1,UK:BBC News
 http://iptv.iptivihd.com:8000/cemal/sakarya54/6922
 
-#EXTINF:-1,UK | BBC Parliament
-http://iptv.iptivihd.com:8000/cemal/sakarya54/22991
-
-#EXTINF:-1,UK:ITV 1 HD
-http://iptv.iptivihd.com:8000/cemal/sakarya54/1505
-
 #EXTINF:-1,UK:ITV 2 HD
 http://iptv.iptivihd.com:8000/cemal/sakarya54/1506
+
+#EXTINF:-1,UK:ITV 3 HD
+http://iptv.iptivihd.com:8000/cemal/sakarya54/1507
 
 #EXTINF:-1,UK:ITV BE HD
 http://iptv.iptivihd.com:8000/cemal/sakarya54/1508
 
+#EXTINF:-1,UK:E4
+http://iptv.iptivihd.com:8000/cemal/sakarya54/6928
+
 #EXTINF:-1,UK:ITV 4
 http://iptv.iptivihd.com:8000/cemal/sakarya54/6923
 
-#EXTINF:-1,UK:FILM 4
-http://iptv.iptivihd.com:8000/cemal/sakarya54/6927
-
-#EXTINF:-1,UK:MORE 4
-http://iptv.iptivihd.com:8000/cemal/sakarya54/6926
-
-#EXTINF:-1,UK:CHANNEL 4
-http://iptv.iptivihd.com:8000/cemal/sakarya54/6924
-
-#EXTINF:-1,UK:E!
-http://iptv.iptivihd.com:8000/cemal/sakarya54/6948
+#EXTINF:-1,UK:SKY ONE HD
+http://iptv.iptivihd.com:8000/cemal/sakarya54/7427
 
 #EXTINF:-1,UK | CNBC
 http://iptv.iptivihd.com:8000/cemal/sakarya54/32697
@@ -843,26 +1296,26 @@ http://iptv.iptivihd.com:8000/cemal/sakarya54/32697
 #EXTINF:-1,UK:ALIBI
 http://iptv.iptivihd.com:8000/cemal/sakarya54/6947
 
+#EXTINF:-1,UK:DAVE
+http://iptv.iptivihd.com:8000/cemal/sakarya54/6951
+
 #EXTINF:-1,UK:UTV
 http://iptv.iptivihd.com:8000/cemal/sakarya54/6930
+
+#EXTINF:-1,UK:COMEDY CENTRAL
+http://iptv.iptivihd.com:8000/cemal/sakarya54/6950
+
+#EXTINF:-1,UK:FOX NEWS
+http://iptv.iptivihd.com:8000/cemal/sakarya54/6933
 
 #EXTINF:-1,UK | CNN INT.
 http://iptv.iptivihd.com:8000/cemal/sakarya54/32670
 
-#EXTINF:-1,UK:EURONEWS
-http://iptv.iptivihd.com:8000/cemal/sakarya54/6934
+#EXTINF:-1,UK:NICKELODEON HD
+http://iptv.iptivihd.com:8000/cemal/sakarya54/1503
 
-#EXTINF:-1,UK:TRAVEL CHANNEL
-http://iptv.iptivihd.com:8000/cemal/sakarya54/6958
-
-#EXTINF:-1,UK:BLOOMBERG
-http://iptv.iptivihd.com:8000/cemal/sakarya54/6939
-
-#EXTINF:-1,UK:DISCOVERY SCIENCE
-http://iptv.iptivihd.com:8000/cemal/sakarya54/6952
-
-#EXTINF:-1,UK:SKY NEWS HD
-http://iptv.iptivihd.com:8000/cemal/sakarya54/1499
+#EXTINF:-1,UK:SKY ARTS 1
+http://iptv.iptivihd.com:8000/cemal/sakarya54/6945
 
 #EXTINF:-1,UK:CBS DRAMA HD
 http://iptv.iptivihd.com:8000/cemal/sakarya54/1510
@@ -921,11 +1374,11 @@ http://fut.mine.nu:25461/joe/joe/2061
 #EXTINF:-1,UK FHD : CHANNEL 4
 http://fut.mine.nu:25461/joe/joe/2062
 
-#EXTINF:-1,UK : CHANNEL 5
-http://fut.mine.nu:25461/joe/joe/2063
-
 #EXTINF:-1,UK : COMEDY CENTRAL
 http://fut.mine.nu:25461/joe/joe/2065
+
+#EXTINF:-1,UK FHD : CHANNEL 5
+http://fut.mine.nu:25461/joe/joe/2064
 
 #EXTINF:-1,UK : DAVE
 http://fut.mine.nu:25461/joe/joe/2067
@@ -933,11 +1386,20 @@ http://fut.mine.nu:25461/joe/joe/2067
 #EXTINF:-1,UK : DMAX
 http://fut.mine.nu:25461/joe/joe/2068
 
-#EXTINF:-1,UK : DRAMA
-http://fut.mine.nu:25461/joe/joe/2069
-
 #EXTINF:-1,UK : E! ENTERTAINMENT
 http://fut.mine.nu:25461/joe/joe/2070
+
+#EXTINF:-1,UK : E4
+http://fut.mine.nu:25461/joe/joe/2071
+
+#EXTINF:-1,UK : EDEN
+http://fut.mine.nu:25461/joe/joe/2073
+
+#EXTINF:-1,UK : GOLD
+http://fut.mine.nu:25461/joe/joe/2074
+
+#EXTINF:-1,UK : GOOD FOOD
+http://fut.mine.nu:25461/joe/joe/2075
 
 #EXTINF:-1,UK : HOME
 http://fut.mine.nu:25461/joe/joe/2076
@@ -957,98 +1419,92 @@ http://fut.mine.nu:25461/joe/joe/2077
 #EXTINF:-1,UK : ITV3
 http://fut.mine.nu:25461/joe/joe/2081
 
-#EXTINF:-1,UKr : MORE4 1
-http://fut.mine.nu:25461/joe/joe/2087
+#EXTINF:-1,UK HD : ITV3
+http://fut.mine.nu:25461/joe/joe/2082
 
-#EXTINF:-1,UK : REALLY
-http://fut.mine.nu:25461/joe/joe/2093
+#EXTINF:-1,UK : LIFETIME
+http://fut.mine.nu:25461/joe/joe/2086
 
-#EXTINF:-1,UK : RTE ONE
-http://fut.mine.nu:25461/joe/joe/2094
+#EXTINF:-1,UK : MORE 4
+http://fut.mine.nu:25461/joe/joe/2088
 
-#EXTINF:-1,IR FHD : RTE ONE FHD
-http://fut.mine.nu:25461/joe/joe/2095
+#EXTINF:-1,UK : QUEST
+http://fut.mine.nu:25461/joe/joe/2090
+
+#EXTINF:-1,UK : REAL LIVES
+http://fut.mine.nu:25461/joe/joe/2092
 
 #EXTINF:-1,UK : SKY DRAMA
 http://fut.mine.nu:25461/joe/joe/2099
 
-#EXTINF:-1,UK FHD : SKY ATLANTIC
-http://fut.mine.nu:25461/joe/joe/2101
-
-#EXTINF:-1,UK : SKY ONE
-http://fut.mine.nu:25461/joe/joe/2102
+#EXTINF:-1,UK : SYFY
+http://fut.mine.nu:25461/joe/joe/2104
 
 #EXTINF:-1,UK : TG4
 http://fut.mine.nu:25461/joe/joe/2106
 
+#EXTINF:-1,UK : TRAVEL CHANNEL
+http://fut.mine.nu:25461/joe/joe/2107
+
 #EXTINF:-1,UK : TRUE ENTERTAINMENT
 http://fut.mine.nu:25461/joe/joe/2108
 
-#EXTINF:-1,UK : UNIVERSAL CHANNEL
-http://fut.mine.nu:25461/joe/joe/2109
-
-#EXTINF:-1,IR  : VIRGIN MEDIA ONE
-http://fut.mine.nu:25461/joe/joe/2111
-
-#EXTINF:-1,IR HD : VIRGIN MEDIA ONE
-http://fut.mine.nu:25461/joe/joe/2112
-
-#EXTINF:-1,IR HD : VIRGIN MEDIA THREE HD
-http://fut.mine.nu:25461/joe/joe/2114
-
-#EXTINF:-1,IR  : VIRGIN MEDIA TWO
-http://fut.mine.nu:25461/joe/joe/2115
+#EXTINF:-1,IR HD : VIRGIN MEDIA TWO
+http://fut.mine.nu:25461/joe/joe/2116
 
 #EXTINF:-1,UK : YESTERDAY
 http://fut.mine.nu:25461/joe/joe/2118
 
-#EXTINF:-1,UK FHD : SKY SPORTS ACTION FHD
-http://fut.mine.nu:25461/joe/joe/2198
-
-#EXTINF:-1,UK : SKY SPORTS ACTION
-http://fut.mine.nu:25461/joe/joe/2201
-
-#EXTINF:-1,SKY SPORTS ARENA hd 720
-http://fut.mine.nu:25461/joe/joe/2203
-
-#EXTINF:-1,SKY SPORTS F1 hd  720
-http://fut.mine.nu:25461/joe/joe/2206
-
 #EXTINF:-1,UK : SKY SPORTS F1
 http://fut.mine.nu:25461/joe/joe/2207
 
-#EXTINF:-1,UK : SKY SPORTS GOLF (THE OPEN)
-http://fut.mine.nu:25461/joe/joe/2216
+#EXTINF:-1,SKY SPORTS FOOTBALL hd  720
+http://fut.mine.nu:25461/joe/joe/2211
 
-#EXTINF:-1,SKY SPORTS MAIN EVENT HD
-http://fut.mine.nu:25461/joe/joe/2217
+#EXTINF:-1,UK : SKY SPORTS FOOTBALL
+http://fut.mine.nu:25461/joe/joe/2212
 
-#EXTINF:-1,UK FHD : SKY CINEMA HITS FHD
-http://fut.mine.nu:25461/joe/joe/2565
+#EXTINF:-1,SKY SPORTS GOLF hd  720
+http://fut.mine.nu:25461/joe/joe/2215
 
-#EXTINF:-1,UK FHD : SKY CINEMA SCI-FI FHD
-http://fut.mine.nu:25461/joe/joe/2562
+#EXTINF:-1,UK SD : MOVIES 24 CHRISTMAS
+http://fut.mine.nu:25461/joe/joe/2574
 
-#EXTINF:-1,UK HD : SKY CINEMA SELECT
-http://fut.mine.nu:25461/joe/joe/2557
+#EXTINF:-1,UK : FILM 4
+http://fut.mine.nu:25461/joe/joe/2572
+
+#EXTINF:-1,UK HD : FILM 4
+http://fut.mine.nu:25461/joe/joe/2571
+
+#EXTINF:-1,UK SD : sky cinema Thriller
+http://fut.mine.nu:25461/joe/joe/2570
+
+#EXTINF:-1,UK SD : Sky Cinema Sci-Fi
+http://fut.mine.nu:25461/joe/joe/2564
+
+#EXTINF:-1,UK SD : sky cinema Select
+http://fut.mine.nu:25461/joe/joe/2558
+
+#EXTINF:-1,UK FHD : SKY CINEMA SUPERHEROES FHD
+http://fut.mine.nu:25461/joe/joe/2556
 
 #EXTINF:-1,UK HD : SKY CINEMA HEROES
 http://fut.mine.nu:25461/joe/joe/2555
 
-#EXTINF:-1,UK FHD : SKY CINEMA FAMILY FHD
-http://fut.mine.nu:25461/joe/joe/2552
+#EXTINF:-1,UK FHD : SKY CINEMA DISNEY FHD
+http://fut.mine.nu:25461/joe/joe/2551
 
-#EXTINF:-1,UK SD : sky cinema Disney
-http://fut.mine.nu:25461/joe/joe/2550
+#EXTINF:-1,UK SD : sky cinema Family
+http://fut.mine.nu:25461/joe/joe/2553
 
-#EXTINF:-1,UK FHD : SKY CINEMA COMEDY FHD
-http://fut.mine.nu:25461/joe/joe/2549
+#EXTINF:-1,UK SD : sky cinema Action
+http://fut.mine.nu:25461/joe/joe/2547
 
 #EXTINF:-1,UK FHD : SKY CINEMA ACTION FHD
 http://fut.mine.nu:25461/joe/joe/2546
 
-#EXTINF:-1,UK : TRUE MOVIES
-http://fut.mine.nu:25461/joe/joe/2545
+#EXTINF:-1,UK : TCM
+http://fut.mine.nu:25461/joe/joe/2544
 
 #EXTINF:-1,UK : SKY DRAMA
 http://fut.mine.nu:25461/joe/joe/2541
@@ -1056,65 +1512,62 @@ http://fut.mine.nu:25461/joe/joe/2541
 #EXTINF:-1,UK : SHOWCASE
 http://fut.mine.nu:25461/joe/joe/2540
 
-#EXTINF:-1,UK FHD : SKY SPORTS PREMIER LEAGUE FHD
-http://fut.mine.nu:25461/joe/joe/2226
+#EXTINF:-1,UK FHD : SKY NEWS
+http://fut.mine.nu:25461/joe/joe/2235
 
-#EXTINF:-1,UK : SKY SPORTS NEWS
-http://fut.mine.nu:25461/joe/joe/2223
+#EXTINF:-1,USA: FOX NEWS
+http://fut.mine.nu:25461/joe/joe/2234
+
+#EXTINF:-1,UK HD : BBC WORLD NEWS HD
+http://fut.mine.nu:25461/joe/joe/2233
+
+#EXTINF:-1,UK FHD : BBC NEWS
+http://fut.mine.nu:25461/joe/joe/2232
+
+#EXTINF:-1,UK : SKY SPORTS RACING
+http://fut.mine.nu:25461/joe/joe/2231
+
+#EXTINF:-1,ENCODER FEED : SKY SPORTS RACING FHD
+http://fut.mine.nu:25461/joe/joe/2230
+
+#EXTINF:-1,UK FHD : SKY SPORTS NEWS FHD
+http://fut.mine.nu:25461/joe/joe/2224
 
 #EXTINF:-1,UK : SKY SPORTS MIX
 http://fut.mine.nu:25461/joe/joe/2222
 
-#EXTINF:-1,SPORTS : BEIN 12 FHD
-http://fut.mine.nu:25461/joe/joe/2620
-
 #EXTINF:-1,US: SYFY | HD
 http://fut.mine.nu:25461/joe/joe/2614
 
-#EXTINF:-1,USA : INVESTIGATION DISCOVERY (E)
-http://fut.mine.nu:25461/joe/joe/2608
-
-#EXTINF:-1,USA : Food Network HD
-http://fut.mine.nu:25461/joe/joe/2600
+#EXTINF:-1,US: SCIENCE CHANNEL |HD
+http://fut.mine.nu:25461/joe/joe/2613
 
 #EXTINF:-1,USA : FXX HD
 http://fut.mine.nu:25461/joe/joe/2599
 
-#EXTINF:-1,USA : DISCOVERY HD (E)
-http://fut.mine.nu:25461/joe/joe/2595
+#EXTINF:-1,USA : E! HD
+http://fut.mine.nu:25461/joe/joe/2598
+
+#EXTINF:-1,USA : DISCOVERY LIFE HD
+http://fut.mine.nu:25461/joe/joe/2597
+
+#EXTINF:-1,USA : DISCOVERY SCIENCE HD
+http://fut.mine.nu:25461/joe/joe/2596
 
 #EXTINF:-1,USA : COMEDY CENTRAL
 http://fut.mine.nu:25461/joe/joe/2593
 
-#EXTINF:-1,USA : BRAVO HD
-http://fut.mine.nu:25461/joe/joe/2592
+#EXTINF:-1,UK SD : MTV MUSIC
+http://fut.mine.nu:25461/joe/joe/2586
 
-#EXTINF:-1,UK : Club MTV
-http://fut.mine.nu:25461/joe/joe/2583
+#EXTINF:-1,UK SD : MTV HITS
+http://fut.mine.nu:25461/joe/joe/2585
 
 #EXTINF:-1,UK SD : MTV BASE
 http://fut.mine.nu:25461/joe/joe/2582
 
-#EXTINF:-1,UK SD : MTV ONE
-http://fut.mine.nu:25461/joe/joe/2581
-
-#EXTINF:-1,UK : CLUBLAND
-http://fut.mine.nu:25461/joe/joe/2579
-
-#EXTINF:-1,UK : RACING UK
-http://fut.mine.nu:25461/joe/joe/2678
-
-#EXTINF:-1,UK FHD : PREMIER SPORTS 2
-http://fut.mine.nu:25461/joe/joe/2675
-
-#EXTINF:-1,UK FHD : PREMIER SPORTS
-http://fut.mine.nu:25461/joe/joe/2674
-
-#EXTINF:-1,UK FHD : MUTV FHD
-http://fut.mine.nu:25461/joe/joe/2673
-
-#EXTINF:-1,UK FHD : LIVERPOOL FC TV
-http://fut.mine.nu:25461/joe/joe/2672
+#EXTINF:-1,UK FHD : RACING TV
+http://fut.mine.nu:25461/joe/joe/2677
 
 #EXTINF:-1,UK FHD : LFC SD
 http://fut.mine.nu:25461/joe/joe/2671
@@ -1122,17 +1575,17 @@ http://fut.mine.nu:25461/joe/joe/2671
 #EXTINF:-1,UK :FrontRunner
 http://fut.mine.nu:25461/joe/joe/2670
 
+#EXTINF:-1,UK FHD : FREESPORTS
+http://fut.mine.nu:25461/joe/joe/2669
+
 #EXTINF:-1,UK HD : EUROSPORTS 2
 http://fut.mine.nu:25461/joe/joe/2668
 
 #EXTINF:-1,UK HD : EUROSPORTS 1
 http://fut.mine.nu:25461/joe/joe/2667
 
-#EXTINF:-1,UK FHD : EIR SPORTS FHD 1
-http://fut.mine.nu:25461/joe/joe/2663
-
-#EXTINF:-1,UK FHD : BOXNATION
-http://fut.mine.nu:25461/joe/joe/2661
+#EXTINF:-1,UK: EIR SPORT 2
+http://fut.mine.nu:25461/joe/joe/2666
 
 #EXTINF:-1,UK : NAT GEO WILD
 http://fut.mine.nu:25461/joe/joe/2660
@@ -1140,17 +1593,14 @@ http://fut.mine.nu:25461/joe/joe/2660
 #EXTINF:-1,UK : NAT GEO
 http://fut.mine.nu:25461/joe/joe/2659
 
-#EXTINF:-1,UK : HISTORY 2 ( H2 )
-http://fut.mine.nu:25461/joe/joe/2657
-
-#EXTINF:-1,UK : HISTORY
-http://fut.mine.nu:25461/joe/joe/2656
-
-#EXTINF:-1,UK : DISCOVERY TURBO
-http://fut.mine.nu:25461/joe/joe/2655
-
 #EXTINF:-1,UK : DISCOVERY SHED
 http://fut.mine.nu:25461/joe/joe/2654
+
+#EXTINF:-1,UK : DISCOVERY HOME & HEALTH
+http://fut.mine.nu:25461/joe/joe/2652
+
+#EXTINF:-1,UK : DISCOVERY HISTORY
+http://fut.mine.nu:25461/joe/joe/2651
 
 #EXTINF:-1,UK : DISCOVERY
 http://fut.mine.nu:25461/joe/joe/2650
@@ -1158,14 +1608,17 @@ http://fut.mine.nu:25461/joe/joe/2650
 #EXTINF:-1,UK : CRIME & INVESTIGATION
 http://fut.mine.nu:25461/joe/joe/2649
 
+#EXTINF:-1,USA : NBA TV HD
+http://fut.mine.nu:25461/joe/joe/2646
+
 #EXTINF:-1,USA: NBC SPORTS NETWORK
 http://fut.mine.nu:25461/joe/joe/2645
 
 #EXTINF:-1,USA : GOLF HD
 http://fut.mine.nu:25461/joe/joe/2643
 
-#EXTINF:-1,USA : Fox Sports 2 HD
-http://fut.mine.nu:25461/joe/joe/2642
+#EXTINF:-1,USA : Fox Sports 1 HD
+http://fut.mine.nu:25461/joe/joe/2641
 
 #EXTINF:-1,USA: ESPN 2 HD
 http://fut.mine.nu:25461/joe/joe/2640
@@ -1173,17 +1626,20 @@ http://fut.mine.nu:25461/joe/joe/2640
 #EXTINF:-1,USA : ESPN (E)
 http://fut.mine.nu:25461/joe/joe/2639
 
+#EXTINF:-1,USA : CBS Sports Network HD
+http://fut.mine.nu:25461/joe/joe/2638
+
 #EXTINF:-1,USA : WWE Network HD
 http://fut.mine.nu:25461/joe/joe/2635
+
+#EXTINF:-1,USA : BIG TEN NETWORK
+http://fut.mine.nu:25461/joe/joe/2637
 
 #EXTINF:-1,UK: POP Max  | HD
 http://fut.mine.nu:25461/joe/joe/2708
 
-#EXTINF:-1,UK SD : NICK TOONS
-http://fut.mine.nu:25461/joe/joe/2705
-
-#EXTINF:-1,UK SD : NICK JUNIOR
-http://fut.mine.nu:25461/joe/joe/2704
+#EXTINF:-1,UK SD : NICK JR TOO
+http://fut.mine.nu:25461/joe/joe/2703
 
 #EXTINF:-1,UK SD : DISNEY JUNIOR
 http://fut.mine.nu:25461/joe/joe/2700
@@ -1191,11 +1647,11 @@ http://fut.mine.nu:25461/joe/joe/2700
 #EXTINF:-1,UK  SD : CARTONITO  ( NOT 24H )
 http://fut.mine.nu:25461/joe/joe/2697
 
-#EXTINF:-1,UK SD : CARTOON NETWORK
-http://fut.mine.nu:25461/joe/joe/2696
+#EXTINF:-1,UK SD : BT SPORTS 3
+http://fut.mine.nu:25461/joe/joe/2693
 
-#EXTINF:-1,US: BABY TV | HD
-http://fut.mine.nu:25461/joe/joe/2695
+#EXTINF:-1,UK SD : BT SPORTS 2
+http://fut.mine.nu:25461/joe/joe/2692
 
 #EXTINF:-1,UK SD : BT SPORTS 1
 http://fut.mine.nu:25461/joe/joe/2691
@@ -1206,11 +1662,11 @@ http://fut.mine.nu:25461/joe/joe/2689
 #EXTINF:-1,UK HD : BT SPORTS 2  720
 http://fut.mine.nu:25461/joe/joe/2688
 
+#EXTINF:-1,UK FHD : BT 3 FHD
+http://fut.mine.nu:25461/joe/joe/2686
+
 #EXTINF:-1,UK FHD : BT 2 FHD
 http://fut.mine.nu:25461/joe/joe/2685
-
-#EXTINF:-1,UK FHD : BT 1 FHD
-http://fut.mine.nu:25461/joe/joe/2684#####27/01/20#####
 
 #EXTINF:-1,USA | ABC
 http://iptv.iptivihd.com:8000/cemal/sakarya54/9511
@@ -1275,12 +1731,6 @@ http://iptv.iptivihd.com:8000/cemal/sakarya54/32726
 #EXTINF:-1,USA | TENNIS CHANNEL
 http://iptv.iptivihd.com:8000/cemal/sakarya54/32725
 
-#EXTINF:-1,CA | TSN 5
-http://iptv.iptivihd.com:8000/cemal/sakarya54/32742
-
-#EXTINF:-1,USA | A & E
-http://iptv.iptivihd.com:8000/cemal/sakarya54/32694
-
 #EXTINF:-1,USA | ANIMAL PLANET
 http://iptv.iptivihd.com:8000/cemal/sakarya54/32693
 
@@ -1290,11 +1740,14 @@ http://iptv.iptivihd.com:8000/cemal/sakarya54/32756
 #EXTINF:-1,USA | CW
 http://iptv.iptivihd.com:8000/cemal/sakarya54/32703
 
-#EXTINF:-1,USA | DIY NETWORK
-http://iptv.iptivihd.com:8000/cemal/sakarya54/32704
+#EXTINF:-1,USA | ESPN U
+http://iptv.iptivihd.com:8000/cemal/sakarya54/32690
 
 #EXTINF:-1,USA | DISNEY CHANNEL
 http://iptv.iptivihd.com:8000/cemal/sakarya54/32701
+
+#EXTINF:-1,USA | BLOOMBERG
+http://iptv.iptivihd.com:8000/cemal/sakarya54/22589
 
 #EXTINF:-1,CBS News
 http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
@@ -1316,6 +1769,9 @@ https://edge.free-speech-tv-live.top.comcast.net/out/u/fstv.m3u8
 
 #EXTINF:-1,Channel 7 [NoRoku]
 http://radio.7chan.org:8000/CH7
+
+#EXTINF:-1,Home Shopping Network
+http://hsn.mpl.miisolutions.net/hsn-live01/_definst_/smil:HSN1_ipad.smil/playlist.m3u8
 
 #EXTINF:-1,Red Bull TV
 http://rbtvdiglinear-i.akamaihd.net/hls/live/241719/ATfallback/master.m3u8
@@ -1410,20 +1866,23 @@ http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/2023
 #EXTINF:-1,US: Tsn 2
 http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/2022
 
-#EXTINF:-1,US: Tsn 3
-http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/2021
+#EXTINF:-1,US: Tsn 5
+http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/2019
 
-#EXTINF:-1,NL: Fox Sports Eredivisie 3 HD
-http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/222
+#EXTINF:-1,FR: BeinSport1 HD
+http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/217
 
-#EXTINF:-1,US: Fox Sports 2 HD
-http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/113
+#EXTINF:-1,FR: BeinSport2 HD
+http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/218
 
-#EXTINF:-1,DE: Sky Sport 2 HQ
-http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/160
+#EXTINF:-1,AR: BeinSport4 HD
+http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/140
 
-#EXTINF:-1,DE: Sky Bundesliga 1 HQ
-http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/158
+#EXTINF:-1,NL: Fox Sports 5 Eredivisie
+http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/164
+
+#EXTINF:-1,US: Fox Sports 1 HD
+http://ip.open4.xyz:8000/VamcfdUl0j/irJvnkBEtl/112
 
 #EXTINF:-1,Abu Dhabi Sports
 http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_sports1
